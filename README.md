@@ -3,38 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="wrapper">
-      <form>
-        <h2>Login form</h2>
-        <div class="input-field">
-          <input type="email" required />
-          <label>Enter your email</label>
-        </div>
-        <div class="input-field">
-          <input type="password" required />
-          <label>Enter your password</label>
-        </div>
-        <div class="forget">
-          <label for="remember">
-            <input type="checkbox" id="remember" />
-            <p>Remember me</p>
-          </label>
-          <a href="#">forgot password</a>
-        </div>
-        <button type="submit">Login</button>
-        <div class="register">
-          <p>Don't have an account?</p>
-        </div>
-      </form>
-    </div>
-  </body>
-</html>
-
-
-<style>
+    <style>
   * {
   margin: 0;
   padding: 0;
@@ -159,3 +128,31 @@ button:hover {
   text-decoration: none;
 }
 </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form>
+        <h2>Login form</h2>
+        <div class="input-field">
+          <input type="email" required />
+          <label>Enter your email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" required />
+          <label>Enter your password</label>
+        </div>
+        <div class="forget">
+          <label for="remember">
+            <input type="checkbox" id="remember" />
+            <p>Remember me</p>
+          </label>
+          <a href="#">forgot password</a>
+        </div>
+        <button type="submit">Login</button>
+        <div class="register">
+          <p>Don't have an account?</p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
